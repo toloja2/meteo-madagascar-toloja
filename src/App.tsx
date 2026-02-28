@@ -100,7 +100,7 @@ function App() {
     <div className={`min-h-screen  flex justify-center items-start bg-linear-to-br ${background} transition-all duration-1000 ease-in-out `}>
       <div className="animation-fadeIn mt-10 bg-white/50 border border-white/30 backdrop-blur-3xl p-8 rounded-3xl shadow-2xl w-[95%] max-w-lg text-white transition duration-500 hover:scale-105 hover:shadow-yellow-500/50 hover:ring-1 hover:ring-orange-600">
 
-        <h1 className="w-full text-center font-extrabold mb-6 text-2xl bg-linear-to-r from-yellow-600 to-white bg-clip-text text-transparent">
+        <h1 className="w-full text-center font-extrabold mb-6 text-2xl bg-linear-to-r from-orange-300 to-green-600 bg-clip-text text-transparent">
           Weather {!weather?.name ? "App":`in ${weather?.name}` }
           {/* Météo <img src={drapeauMada} alt="drapeau madagascar" className='w-7 h-7' /> */}
         </h1>
